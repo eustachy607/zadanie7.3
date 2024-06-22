@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const utils_1 = require("./utils");
+console.log((0, utils_1.add)(2, 3));
+console.log((0, utils_1.multiply)(2, 3));
+console.log((0, utils_1.concatenate)('Hello', 'World'));
+const person = { name: 'John', age: 30 };
+console.log((0, utils_1.getPersonInfo)(person));
+const product = { id: 1, name: 'Laptop', price: 999.99 };
+console.log((0, utils_1.getProductInfo)(product));
